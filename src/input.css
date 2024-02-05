@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .row {
+        @apply flex flex-wrap flex-row mx-[-12px];
+    }
+
+    .card {
+        @apply w-[312px] rounded-[10px] shadow-lg mt-[39px] cursor-pointer;
+    }
+
+    .numbers {
+        @apply text-[#181818] text-[16px] font-medium font-[Poppins] leading-[20px] border border-[#EDEDED] py-[8px] px-[32px] w-[84px] rounded-[40px] hover:bg-black hover:text-white transition-all ease-linear duration-300
+    }
+
+    .shoecards {
+        @apply w-[312px] h-[390px] border shadow hover:shadow-lg hover:border-transparent border-[#E0E0E0] rounded-[17px] cursor-pointer;
+    }
+    .stroke{
+        -webkit-text-stroke: 1px;
+    }
+
+}
+
+.cross span:nth-child(1) {
+    transform: rotate(58deg) translateY(17px);
+    transition: 300ms;
+    position: relative;
+    top: -5px;
+}
+
+.cross span:nth-child(2) {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: 300ms;
+}
+
+.cross span:nth-child(3) {
+    transform: rotate(123deg) translateY(19px);
+    transition: 300ms;
+    position: relative;
+    top: -10px;
+}
