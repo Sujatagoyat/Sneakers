@@ -76,7 +76,7 @@ myarr.forEach(element => {
                    <p class="numbers">45</p> 
                    <p class="numbers">46</p> </div>
                    <p class="text-[#454729] text-[16px] font-normal font-Poppins leading-[20px] pt-[19px]">View this product as:</p>
-                   <p class= " text-[#007BFF] text-[16px] font-semibold leading-[20px] font-Poppins pt-[8px] ">Foot Locker NL </p>
+                   <p class= " text-[#007BFF] text-[16px] font-semibold leading-[20px] font-Poppins pt-[8px] hover:opacity-[0.5] ">Foot Locker NL </p>
                    </div>   `
 
 

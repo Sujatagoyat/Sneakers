@@ -761,6 +761,10 @@ video {
   width: 108px;
 }
 
+.w-\[117px\]{
+  width: 117px;
+}
+
 .w-\[36px\]{
   width: 36px;
 }
@@ -879,6 +883,10 @@ video {
 
 .gap-\[50px\]{
   gap: 50px;
+}
+
+.gap-\[55px\]{
+  gap: 55px;
 }
 
 .gap-\[9px\]{
@@ -1000,11 +1008,6 @@ video {
   padding-right: 12px;
 }
 
-.px-\[13px\]{
-  padding-left: 13px;
-  padding-right: 13px;
-}
-
 .px-\[18px\]{
   padding-left: 18px;
   padding-right: 18px;
@@ -1025,11 +1028,6 @@ video {
   padding-bottom: 2.5rem;
 }
 
-.py-5{
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
 .py-\[10px\]{
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1038,6 +1036,11 @@ video {
 .py-\[11px\]{
   padding-top: 11px;
   padding-bottom: 11px;
+}
+
+.py-\[12px\]{
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .py-\[22px\]{
@@ -1098,6 +1101,14 @@ video {
 
 .pb-\[70px\]{
   padding-bottom: 70px;
+}
+
+.pl-\[13px\]{
+  padding-left: 13px;
+}
+
+.pr-\[17px\]{
+  padding-right: 17px;
 }
 
 .pt-2{
@@ -1220,6 +1231,10 @@ video {
 
 .font-semibold{
   font-weight: 600;
+}
+
+.leading-\[125\%\]{
+  line-height: 125%;
 }
 
 .leading-\[12px\]{
@@ -1365,6 +1380,11 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.outline-none{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 .transition-all{
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1448,6 +1468,11 @@ video {
   border-width: 1px;
 }
 
+.hover\:border-\[\#28A745\]:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(40 167 69 / var(--tw-border-opacity));
+}
+
 .hover\:border-\[green\]:hover{
   --tw-border-opacity: 1;
   border-color: rgb(0 128 0 / var(--tw-border-opacity));
@@ -1463,8 +1488,9 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.hover\:font-bold:hover{
-  font-weight: 700;
+.hover\:text-\[\#28A745\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(40 167 69 / var(--tw-text-opacity));
 }
 
 .hover\:text-green-500:hover{
@@ -1633,10 +1659,6 @@ video {
 @media (min-width: 1024px){
   .lg\:mt-0{
     margin-top: 0px;
-  }
-
-  .lg\:block{
-    display: block;
   }
 
   .lg\:flex{

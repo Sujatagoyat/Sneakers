@@ -46,10 +46,10 @@
             <div class="container mx-auto px-3">
                 <ul onclick="openNav()" id="navbar"
                     class="flex gap-[15px] justify-end menulist max-lg:min-h-screen max-lg:w-full max-lg:justify-center max-lg:items-center max-lg:flex-col max-lg:bg-white max-lg:fixed max-lg:top-0 max-lg:-right-full max-lg:ease-linear max-lg:transition-all max-lg:duration-300">
-                    <li><a href=""
+                    <li><a href="#home"
                             class="text-black text-[18px] font-normal font-Roboto leading-[21.09px] hover:stroke">HOME</a>
                     </li>
-                    <li><a href=""
+                    <li><a href="#sneakers KOPEN"
                             class="text-black text-[18px] font-normal font-Roboto leading-[21.09px] hover:stroke">SNEAKERS
                             KOPEN
                         </a>
@@ -57,7 +57,7 @@
                     <li><a href=""
                             class="text-black text-[18px] font-normal font-Roboto leading-[21.09px] hover:stroke">INTERVIEWS</a>
                     </li>
-                    <li><a href=""
+                    <li><a href="#sale"
                             class="text-black text-[18px] font-normal font-Roboto leading-[21.09px] hover:stroke">SALE
                         </a>
                     </li>
@@ -70,7 +70,7 @@
                             FORUM
                         </a>
                     </li>
-                    <li><a href=""
+                    <li><a href="#blog"
                             class="text-black text-[18px] font-normal font-Roboto leading-[21.09px] hover:stroke">BLOG</a>
                     </li>
                 </ul>
@@ -88,7 +88,7 @@
         </nav>
     </header>
     <!--================================= section-1========================================= -->
-    <section class="py-[88px]">
+    <section class="py-[88px]" id="home">
         <div class="max-w-[1320px] mx-auto px-3">
             <div class="row">
                 <div class="md:w-[50%] w-full px-[12px]">
@@ -151,7 +151,7 @@
                                 <button id="addbtn" class="text-[#555555]">+</button>
                             </div>
                             <button
-                                class="text-white sm:text-[20px] text-[16px] text-nowrap font-medium font-Poppins leading-[25px] bg-[#28A745] sm:px-[32px] py-[10px] px-[20px] rounded-[21px]">Add
+                                class="text-white sm:text-[20px] text-[16px] text-nowrap font-medium font-Poppins leading-[25px] bg-[#28A745] sm:px-[32px] py-[10px] px-[20px] rounded-[21px] hover:text-[#28A745] hover:bg-white border hover:border-[#28A745]">Add
                                 to
                                 Cart</button>
                         </div>
@@ -159,13 +159,15 @@
                     <div class="flex gap-[16px] pt-[20px] items-center">
                         <p class="text-xl font-medium leading-[25px] font-Poppins">Size:</p>
                         <div
-                            class="flex items-center gap-5 border border-[#E8E8E8] w-[108px] h-[45px] rounded-[21px] justify-between px-[13px]">
-                            <p class="text-[20px] font-normal leading-[25px] font-JosefinSans">S</p>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M5 6L10 11L15 6L17 7L10 14L3 7L5 6Z" fill="#555555" />
-                            </svg>
-
+                            class="flex items-center justify-center border border-[#E8E8E8] rounded-[21px] py-[12px] pl-[13px] pr-[17px] w-[117px] h-[45px]">
+                            <select
+                                class="cursor-pointer text-[#555555] font-Josefin text-[20px] font-normal leading-[125%] outline-none gap-[55px] flex items-center">
+                                <option value="">S</option>
+                                <option value="">M</option>
+                                <option value="">L</option>
+                                <option value="">XL</option>
+                                <option value="">XXL</option>
+                            </select>
                         </div>
                     </div>
 
@@ -274,7 +276,7 @@
         </div>
     </section>
     <!-- ================================ section-2 ========================================== -->
-    <section class="py-10">
+    <section class="py-10" id="sneakers KOPEN">
         <div class="max-w-[1320px] mx-auto px-3">
             <h1
                 class="text-black sm:text-[25px] text-[16px] font-medium leading-[31px] max-xl:text-center text-nowrap ">
@@ -348,7 +350,7 @@
         </div>
     </section>
     <!-- ====================================== section-4===================================================== -->
-    <section class="py-10">
+    <section class="py-10" id="sale">
         <div class="max-w-[1320px] mx-auto px-3">
             <h1 class=" text-black text-[30px] font-semibold leading-[45px] font-Poppins pb-[20px] ">RELATED PRODUCT
             </h1>
